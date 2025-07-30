@@ -173,6 +173,3 @@ Config rule `s3-bucket-server-side-encryption-enabled` detects unencrypted S3 bu
 
 ---
 
-## 📝 License
-
-This lab is for educational and portfolio use only. Use responsibly.
