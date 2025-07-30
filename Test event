@@ -1,0 +1,54 @@
+{
+  "version": "1",
+  "id": "project-event-id-1234",
+  "detail-type": "GuardDuty Finding",
+  "source": "aws.guardduty",
+  "account": "240057652896",
+  "time": "2024-07-30T15:41:00Z",
+  "region": "ap-south-1",
+  "resources": [],
+  "detail": {
+    "id": "06cc2afd470e355aabe284f0c69a18d4",
+    "type": "Recon:EC2/Portscan",
+    "resource": {
+      "resourceType": "Instance",
+      "instanceDetails": {
+        "instanceId": "i-0020a780627f81fa1"
+      }
+    },
+    "severity": 7,
+    "title": "EC2 Instance Portscan Detected",
+    "description": "Port scanning detected from instance ",
+    "service": {
+      "serviceName": "guardduty",
+      "action": {
+        "actionType": "PORT_PROBE",
+        "portProbeAction": {
+          "portProbeDetails": [
+            {
+              "localPortDetails": {
+                "port": 22,
+                "portName": "SSH"
+              },
+              "remoteIpDetails": {
+                "ipAddressV4": "198.51.100.1",
+                "organization": {
+                  "asn": 12345,
+                  "asnOrg": "AWS"
+                },
+                "country": {
+                  "countryName": "India"
+                }
+              }
+            }
+          ],
+          "blocked": false
+        }
+      },
+      "detectorId": "abcdefg-1234-5678-abcd-ef0123456789",
+      "eventFirstSeen": "2024-07-30T06:46:00Z",
+      "eventLastSeen": "2024-07-30T06:55:00Z",
+      "archived": false
+    }
+  }
+}
