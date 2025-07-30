@@ -1,6 +1,6 @@
-# 🛡️ AWS Cloud Threat Detection & Response Lab
+# 🛡️ AWS Cloud Threat Detection & Response 
 
-This lab simulates real-world cloud security incidents and demonstrates automated threat detection and response using AWS-native services. Infrastructure is provisioned with Terraform and integrates GuardDuty, AWS Config, Security Hub, CloudTrail, and Lambda.
+This simulates real-world cloud security incidents and demonstrates automated threat detection and response using AWS-native services. Infrastructure is provisioned with Terraform and integrates GuardDuty, AWS Config, Security Hub, CloudTrail, and Lambda.
 
 > ⚙️ Designed as a portfolio project to showcase hands-on cloud security and DevSecOps engineering skills.
 
