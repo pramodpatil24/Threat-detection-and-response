@@ -1,4 +1,4 @@
-# 🛡️ AWS Cloud Threat Detection & Response 
+# 🛡️ Automated Threat Detection & Response 
 
 This simulates real-world cloud security incidents and demonstrates automated threat detection and response using AWS-native services. Infrastructure is provisioned with Terraform and integrates GuardDuty, AWS Config, Security Hub, CloudTrail, and Lambda.
 
@@ -8,11 +8,9 @@ This simulates real-world cloud security incidents and demonstrates automated th
 
 ## 🚀 Key Features
 
-- **Infrastructure as Code (IaC)** using Terraform
 - **AWS GuardDuty** detects port scans and other suspicious behavior
 - **AWS Lambda** automatically isolates compromised EC2 instances
 - **AWS Config** enforces compliance with encryption and network hardening rules
-- **Security Hub** aggregates and visualizes findings
 - **MITRE ATT&CK-aligned threat simulation**
 
 ---
@@ -20,13 +18,11 @@ This simulates real-world cloud security incidents and demonstrates automated th
 ## 🧰 Tech Stack
 
 | Tool            | Purpose                         |
-|-----------------|----------------------------------|
-| Terraform       | Infrastructure provisioning      |
+|-----------------|----------------------------------|      
 | AWS EC2         | Target + attacker VMs            |
 | AWS GuardDuty   | Threat detection                 |
 | AWS Lambda      | Automated incident response      |
 | AWS Config      | Compliance monitoring            |
-| AWS Security Hub| Aggregation + visualization      |
 | Python (Boto3)  | Lambda scripting                 |
 | EventBridge     | Event-driven automation          |
 
@@ -42,35 +38,6 @@ This simulates real-world cloud security incidents and demonstrates automated th
 
 ## 🧱 Project Structure
 
-```
-
-aws-threat-detection-lab/
-├── terraform/ # Infrastructure as Code (VPC, EC2, GuardDuty, Lambda, Config)
-│ ├── main.tf
-│ ├── lambda.tf
-│ ├── config.tf
-│ ├── securityhub.tf
-│ ├── variables.tf
-│ ├── outputs.tf
-├── lambda/
-│ └── isolate_instance.py # Python function for automated remediation
-├── attack_simulation/
-│ └── nmap_scan.md # Guide to simulate port scan attack
-├── screenshots/ # Captured GuardDuty, Lambda, Config, and Security Hub visuals
-│ ├── guardduty_finding.png
-│ ├── lambda_logs.png
-│ ├── ec2_quarantine.png
-│ ├── security_hub_summary.png
-│ └── aws_config_encryption_rule.png
-├── diagrams/
-│ └── architecture.png # Visual of detection/response architecture
-├── teardown.sh # Script to destroy all resources
-├── README.md
-└── .gitignore
-
-````
-
----
 
 ## 🧪 Lab Walkthrough
 
@@ -86,7 +53,6 @@ terraform init
 terraform apply
 ```
 
-Terraform will provision:
 
 * A VPC, EC2 instance, and basic networking
 * GuardDuty, AWS Config, and Security Hub
