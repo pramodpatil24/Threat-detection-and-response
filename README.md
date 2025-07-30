@@ -34,7 +34,7 @@ This simulates real-world cloud security incidents and demonstrates automated th
 
 ## 🗺️ Architecture
 
-![Architecture Diagram](diagrams/architecture.png)
+![Architecture Diagram](images/architecture.png)
 
 > *This diagram shows the flow from threat detection → Lambda response → EC2 isolation.*
 
@@ -128,31 +128,31 @@ cd aws-threat-detection-lab
 
 ### 🔍 GuardDuty Finding – Port Scan Detection
 GuardDuty identifies reconnaissance activity (`Recon:EC2/Portscan`) triggered by an Nmap scan.
-![GuardDuty Port Scan](screenshots/guardduty_finding.png)
+![GuardDuty Port Scan](images/guardduty_finding.png)
 
 ---
 
 ### 🚨 Lambda Auto-Remediation – CloudWatch Logs
 Lambda function is triggered automatically and removes ingress rules from the compromised EC2 instance.
-![Lambda Logs](screenshots/lambda_logs.png)
+![Lambda Logs](images/lambda_logs.png)
 
 ---
 
 ### 🔒 Quarantined EC2 Instance – Tag & Isolation
 EC2 instance is tagged with `Quarantine=True` and its security group ingress rules are revoked.
-![EC2 Quarantine](screenshots/ec2_quarantine.png)
+![EC2 Quarantine](images/ec2_quarantine.png)
 
 ---
 
 ### 🧩 Security Hub – CIS AWS Foundations Benchmark
 Security Hub shows enabled CIS benchmark and findings summary, validating compliance monitoring.
-![Security Hub Compliance](screenshots/security_hub_summary.png)
+![Security Hub Compliance](images/security_hub_summary.png)
 
 ---
 
 ### ✅ AWS Config – S3 Bucket Encryption Rule
 Config rule `s3-bucket-server-side-encryption-enabled` detects unencrypted S3 buckets in real-time.
-![AWS Config Rule](screenshots/aws_config_encryption_rule.png)
+![AWS Config Rule](images/aws_config_encryption_rule.png)
 
 ---
 
