@@ -35,7 +35,7 @@ This simulates real-world cloud security incidents and demonstrates automated th
 > *This diagram shows the flow from threat detection → Lambda response → EC2 isolation.*
 
 ---
-⚙️ Project Configuration Overview
+## Project Configuration Overview
 This project includes setup and configuration for key AWS services to build a secure, scalable, and event-driven architecture.
 
 1️⃣ VPC (Virtual Private Cloud)
