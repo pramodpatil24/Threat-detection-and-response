@@ -35,8 +35,29 @@ This simulates real-world cloud security incidents and demonstrates automated th
 > *This diagram shows the flow from threat detection → Lambda response → EC2 isolation.*
 
 ---
+⚙️ Project Configuration Overview
+This project includes setup and configuration for key AWS services to build a secure, scalable, and event-driven architecture.
 
-## 🧱 Project Structure
+1️⃣ VPC (Virtual Private Cloud)
+Creates a logically isolated network in AWS with subnets, route tables, and internet gateways to host resources securely.
+
+2️⃣ EC2 (Elastic Compute Cloud)
+Launches virtual servers to run applications, with customizable instance types, security groups, and key pairs.
+
+3️⃣ SNS (Simple Notification Service)
+Sets up a messaging service to send alerts or notifications via email, SMS, or other endpoints.
+
+4️⃣ GuardDuty
+Enables intelligent threat detection to monitor AWS accounts and workloads for malicious activity and unauthorized behavior.
+
+5️⃣ Lambda
+Configures serverless functions that run code in response to events, such as SNS messages or CloudWatch alarms.
+
+6️⃣ IAM (Identity and Access Management)
+Defines roles, policies, and permissions to securely control access to AWS resources.
+
+7️⃣ CloudWatch
+Monitors logs, metrics, and events from AWS services to enable observability and automated responses.
 
 
 ## 🧪 Lab Walkthrough
