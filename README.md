@@ -41,54 +41,6 @@ This simulates real-world cloud security incidents and demonstrates automated th
 
 ## 🧪 Lab Walkthrough
 
-### 1. Clone and Deploy the Lab
-
-```bash
-git clone https://github.com/securityAD/aws-threat-detection-lab.git
-cd aws-threat-detection-lab/terraform
-
-# (Optional) Update variables.tf with your AWS region and EC2 key pair
-
-terraform init
-terraform apply
-```
-
-
-* A VPC, EC2 instance, and basic networking
-* GuardDuty, AWS Config, and Security Hub
-* A Lambda function that auto-remediates threats
-
----
-
-### 2. Simulate a Threat
-
-Follow the instructions in `attack_simulation/nmap_scan.md` to simulate a port scan attack from another EC2 instance.
-
----
-
-### 3. Observe the Response
-
-* GuardDuty will generate a finding
-* EventBridge triggers the Lambda function
-* The Lambda:
-
-  * Tags the suspicious EC2 as `Quarantine`
-  * Removes its ingress rules to isolate it
-
----
-
-### 4. Teardown the Lab
-
-To safely destroy all AWS resources and avoid charges:
-
-```bash
-cd aws-threat-detection-lab
-./teardown.sh
-```
-
-> 💡 If the script isn’t executable, run `chmod +x teardown.sh` first.
-
----
 
 ## 📸 Screenshots
 
@@ -134,8 +86,8 @@ Config rule `s3-bucket-server-side-encryption-enabled` detects unencrypted S3 bu
 
 ## 👋 Author
 
-**Aaron Diaz**
-🔗 [LinkedIn](https://linkedin.com/in/aaron918)
+**PRAMOD PATIL**
+🔗 [LinkedIn](https://www.linkedin.com/in/pramod-patil742000/)
 
 ---
 
