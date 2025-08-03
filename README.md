@@ -70,7 +70,7 @@ Monitors logs, metrics, and events from AWS services to enable observability and
 
 ### 🔍 GuardDuty Finding – Port Scan Detection
 GuardDuty identifies reconnaissance activity (`Recon:EC2/Portscan`) triggered by an Nmap scan.
-![GuardDuty Port Scan](images/guardduty_finding.png)
+![GuardDuty Port Scan](images/guardduty.png)
 
 ---
 
