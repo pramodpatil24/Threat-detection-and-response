@@ -88,7 +88,7 @@ EC2 instance is tagged with `Quarantine=True` and its security group ingress rul
 
 ### 🧩 Security Grup
 A security group in Amazon VPC acts as a virtual firewall that controls inbound and outbound traffic to and from AWS resources like EC2 instances.
-![Security Group](images/Securitygroup.png)
+![Security Group](mages/Securitygroup.png)
 
 ---
 
