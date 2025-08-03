@@ -86,9 +86,9 @@ EC2 instance is tagged with `Quarantine=True` and its security group ingress rul
 
 ---
 
-### 🧩 Security Hub – CIS AWS Foundations Benchmark
-Security Hub shows enabled CIS benchmark and findings summary, validating compliance monitoring.
-![Security Hub Compliance](images/security_hub_summary.png)
+### 🧩 Security Grup
+A security group in Amazon VPC acts as a virtual firewall that controls inbound and outbound traffic to and from AWS resources like EC2 instances.
+![Security Group](images/Security_group.png)
 
 ---
 
@@ -101,7 +101,7 @@ Config rule `s3-bucket-server-side-encryption-enabled` detects unencrypted S3 bu
 ## 🎯 Skills Demonstrated
 
 * Cloud Security Engineering (GuardDuty, Config, IAM, Security Hub)
-* DevSecOps Automation with Terraform + Lambda
+* DevSecOps Automation with Lambda + SNS
 * Incident Response (detection → action flow)
 * AWS Governance & Compliance (CIS, NIST)
 * Real-world threat simulation with MITRE ATT\&CK mapping
