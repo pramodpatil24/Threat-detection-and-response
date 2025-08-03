@@ -74,9 +74,9 @@ GuardDuty identifies reconnaissance activity (`Recon:EC2/Portscan`) triggered by
 
 ---
 
-### 🚨 Lambda Auto-Remediation – CloudWatch Logs
-Lambda function is triggered automatically and removes ingress rules from the compromised EC2 instance.
-![Lambda Logs](images/lambda_logs.png)
+### 🚨 Lambda Function Overview
+Lambda function Overview shown the Overview.
+![Lambda  Overview](images/lambda_logs.png)
 
 ---
 
