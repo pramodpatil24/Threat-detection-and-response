@@ -83,7 +83,7 @@ Lambda function Overview shown the Overview.
 ### 🔒 EC2 Instance
 An Amazon EC2 (Elastic Compute Cloud) instance is a virtual server in the AWS cloud. It provides scalable computing capacity, allowing you to run applications just like you would on a physical machine—but with the flexibility and power of the cloud.
 You have full control over your instance from launch to termination, including OS selection, configuration, and software installation.
-![EC2 Quarantine](images/ec2_quarantine.png)
+![EC2 Instance](images/EC2.png)
 
 ---
 
