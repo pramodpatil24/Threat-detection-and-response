@@ -80,13 +80,14 @@ Lambda function Overview shown the Overview.
 
 ---
 
-### 🔒 Quarantined EC2 Instance – Tag & Isolation
-EC2 instance is tagged with `Quarantine=True` and its security group ingress rules are revoked.
+### 🔒 EC2 Instance
+An Amazon EC2 (Elastic Compute Cloud) instance is a virtual server in the AWS cloud. It provides scalable computing capacity, allowing you to run applications just like you would on a physical machine—but with the flexibility and power of the cloud.
+You have full control over your instance from launch to termination, including OS selection, configuration, and software installation.
 ![EC2 Quarantine](images/ec2_quarantine.png)
 
 ---
 
-### 🧩 Security Grup
+### 🧩 Security Group
 A security group in Amazon VPC acts as a virtual firewall that controls inbound and outbound traffic to and from AWS resources like EC2 instances.
 ![Security Group](images/Securitygroup.png)
 
