@@ -76,7 +76,7 @@ GuardDuty identifies reconnaissance activity (`Recon:EC2/Portscan`) triggered by
 
 ### 🚨 Lambda Function Overview
 Lambda function Overview shown the Overview.
-![Lambda  Overview](images/lambda_logs.png)
+![Lambda  Overview](images/lambdafunOverview.png)
 
 ---
 
@@ -88,7 +88,7 @@ EC2 instance is tagged with `Quarantine=True` and its security group ingress rul
 
 ### 🧩 Security Grup
 A security group in Amazon VPC acts as a virtual firewall that controls inbound and outbound traffic to and from AWS resources like EC2 instances.
-![Security Group](images/Security_group.png)
+![Security Group](images/Securitygroup.png)
 
 ---
 
