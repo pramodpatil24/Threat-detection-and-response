@@ -92,13 +92,6 @@ A security group in Amazon VPC acts as a virtual firewall that controls inbound 
 ![Security Group](images/Securitygroup.png)
 
 ---
-
-### ✅ AWS Config – S3 Bucket Encryption Rule
-Config rule `s3-bucket-server-side-encryption-enabled` detects unencrypted S3 buckets in real-time.
-![AWS Config Rule](images/aws_config_encryption_rule.png)
-
----
-
 ## 🎯 Skills Demonstrated
 
 * Cloud Security Engineering (GuardDuty, Config, IAM, Security Hub)
